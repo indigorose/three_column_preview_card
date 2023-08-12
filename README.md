@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [Frontend Mentor Solution Site](https://www.frontendmentor.io/solutions/responsive-site-using-html-and-css-qTY4WHF56n)
+-   Live Site URL: [Live Site](https://three-preview-card-kr.netlify.app/)
 
 ## My process
 
@@ -50,7 +50,7 @@ In this example, I have maintained the mobile styling up to 670px and then maint
 
 ### What I learned
 
-I have focused on trying to utilise the Don'tRepeatYourself (DRY) method with this code. Focusing on utilising the common HTML tags such as `<H1>` and `<p>` to make key changes.
+I have focused on trying to utilise the Don'tRepeatYourself (DRY) method with this code. Focusing on utilising the common HTML tags such as `<h1>` and `<p>` to make key changes.
 
 I have also used the original svg tags for the icons rather than encasing within a image tag to remove unnecessary tags.
 
@@ -66,5 +66,5 @@ Going forward, if it possible to refactor some of the css code and include any a
 
 ## Author
 
--   Website - [Karen](https://krobertsondev.netlify.app/)
+-   Website - [Portfolio Site](https://krobertsondev.netlify.app/)
 -   Frontend Mentor - [@indigorose](https://www.frontendmentor.io/profile/indigorose)
