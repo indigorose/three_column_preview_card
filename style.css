@@ -1,39 +1,3 @@
-/* # Front-end Style Guide
-
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
-### Primary
-
-Bright orange: hsl(31, 77%, 52%)
-Dark cyan: hsl(184, 100%, 22%)
-Very dark cyan: hsl(179, 100%, 13%)
-
-### Neutral
-
-Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
-Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
-
-## Typography
-
-### Body Copy
-
-- Font size: 15px
-
-### Font
-
-- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
-- Weights: 400
-
-- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
-- Weights: 700 */
-
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@300;400&display=swap');
 
 body {
@@ -52,8 +16,10 @@ p {
 	color: hsla(0, 0%, 100%, 0.75);
 	font-weight: 300;
 	font-size: 0.8rem;
-	padding: 1em 0 3em 0;
+	padding: 1em 0 2.5em 0;
+	margin: 0.5em 0;
 	line-height: 1.5rem;
+	text-align: left;
 }
 
 .container {
@@ -61,17 +27,19 @@ p {
 	display: flex;
 	flex-direction: column;
 	margin: 3.5em;
+	border-radius: 10px;
+	overflow: hidden;
 }
 
 .col {
 	/* border: 1px solid yellow; */
-	padding: 2.7em;
+	padding: 3em 2.5em 3.5em 2.5em;
 }
 
 .col > a {
 	/* border: 1px solid yellow; */
 	padding: 1em 1.5em;
-	margin-top: 1em;
+	margin: 1.5em 0 4em 0;
 	background-color: hsl(0, 0%, 100%);
 	text-decoration: none;
 	border-radius: 40px;
@@ -86,8 +54,6 @@ p {
 
 .card-1 {
 	background-color: hsl(31, 77%, 52%);
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
 }
 .card-1 a {
 	color: hsl(31, 77%, 52%);
@@ -108,8 +74,6 @@ p {
 
 .card-3 {
 	background-color: hsl(179, 100%, 13%);
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
 }
 .card-3 a {
 	color: hsl(179, 100%, 13%);
@@ -118,4 +82,25 @@ p {
 	border: 1px solid white;
 	background-color: hsl(179, 100%, 13%);
 	color: white;
+}
+
+@media (min-width: 670px) {
+	.container {
+		/* border: 1px solid red; */
+		margin: 10em auto;
+		max-width: 750px;
+		display: flex;
+		flex-direction: row;
+		border-radius: 10px;
+		overflow: hidden;
+	}
+
+	.col p {
+		margin-bottom: 3em;
+	}
+	.card-1,
+	.card-2,
+	.card-3 {
+		border-radius: 0;
+	}
 }
