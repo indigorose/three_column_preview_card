@@ -23,7 +23,6 @@ p {
 }
 
 .container {
-	/* border: 1px solid red; */
 	display: flex;
 	flex-direction: column;
 	margin: 3.5em;
@@ -32,29 +31,13 @@ p {
 }
 
 .col {
-	/* border: 1px solid yellow; */
 	padding: 3em 2.5em 3.5em 2.5em;
-}
-
-.col > a {
-	/* border: 1px solid yellow; */
-	padding: 1em 1.5em;
-	margin: 1.5em 0 4em 0;
-	background-color: hsl(0, 0%, 100%);
-	text-decoration: none;
-	border-radius: 40px;
-	font-size: 0.8rem;
-}
-
-.card-1 a:hover {
-	border: 1px solid white;
-	background-color: hsl(31, 77%, 52%);
-	color: white;
 }
 
 .card-1 {
 	background-color: hsl(31, 77%, 52%);
 }
+
 .card-1 a {
 	color: hsl(31, 77%, 52%);
 }
@@ -66,22 +49,29 @@ p {
 .card-2 a {
 	color: hsl(184, 100%, 22%);
 }
-.card-2 a:hover {
-	border: 1px solid white;
-	background-color: hsl(184, 100%, 22%);
-	color: white;
-}
 
 .card-3 {
 	background-color: hsl(179, 100%, 13%);
 }
+
 .card-3 a {
 	color: hsl(179, 100%, 13%);
 }
-.card-3 a:hover {
-	border: 1px solid white;
-	background-color: hsl(179, 100%, 13%);
+
+.card-btn {
+	/* border: 1px solid yellow; */
+	padding: 1em 1.5em;
+	margin: 1.5em 0 4em 0;
+	background-color: hsl(0, 0%, 100%);
+	text-decoration: none;
+	border-radius: 40px;
+	font-size: 0.8rem;
+}
+
+.card-btn:hover {
+	background: rgba(0, 0, 0, 0);
 	color: white;
+	outline: 1px solid white;
 }
 
 @media (min-width: 670px) {
@@ -97,10 +87,5 @@ p {
 
 	.col p {
 		margin-bottom: 3em;
-	}
-	.card-1,
-	.card-2,
-	.card-3 {
-		border-radius: 0;
 	}
 }
