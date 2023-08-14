@@ -4,16 +4,16 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## Table of contents
 
--   [Overview](#overview)
-    -   [The challenge](#the-challenge)
-    -   [Screenshot](#screenshot)
-    -   [Links](#links)
--   [My process](#my-process)
-    -   [Built with](#built-with)
-    -   [What I learned](#what-i-learned)
-    -   [Continued development](#continued-development)
-    -   [Useful resources](#useful-resources)
--   [Author](#author)
+- [Overview](#overview)
+- [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [My process](#my-process)
+- [Built with](#built-with)
+- [What I learned](#what-i-learned)
+- [Continued development](#continued-development)
+- [Useful resources](#useful-resources)
+- [Author](#author)
 
 ## Overview
 
@@ -21,8 +21,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 Users should be able to:
 
--   View the optimal layout depending on their device's screen size
--   See hover states for interactive elements
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
 
 ### Screenshot
 
@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Frontend Mentor Solution Site](https://www.frontendmentor.io/solutions/responsive-site-using-html-and-css-qTY4WHF56n)
--   Live Site URL: [Live Site](https://three-preview-card-kr.netlify.app/)
+- Solution URL: [Frontend Mentor Solution Site](https://www.frontendmentor.io/solutions/responsive-site-using-html-and-css-qTY4WHF56n)
+- Live Site URL: [Live Site](https://three-preview-card-kr.netlify.app/)
 
 ## My process
 
@@ -44,9 +44,9 @@ In this example, I have maintained the mobile styling up to 670px and then maint
 
 ### Built with
 
--   Semantic HTML5 markup
--   Flexbox
--   Mobile-first workflow
+- Semantic HTML5 markup
+- Flexbox
+- Mobile-first workflow
 
 ### What I learned
 
@@ -58,13 +58,13 @@ As such class names were primarily used so for either sizing, colorways or inter
 
 ### Continued development
 
-Going forward, if it possible to refactor some of the css code and include any accessibilty to the cards. I would also like to colorways and design factors.
+Going forward, if it possible to refactor some of the css code and include any accessibility to the cards. I would also like to colorways and design factors.
 
 ### Useful resources
 
--   [Kevin Powell's Conquering Responsive Layouts Course](https://courses.kevinpowell.co/conquering-responsive-layouts) - This helped me understand mobile-first design and css interactions. It has been a fun 30-day course with practical examples and hands-on experiences.
+- [Kevin Powell's Conquering Responsive Layouts Course](https://courses.kevinpowell.co/conquering-responsive-layouts) - This helped me understand mobile-first design and css interactions. It has been a fun 30-day course with practical examples and hands-on experiences.
 
 ## Author
 
--   Website - [Portfolio Site](https://krobertsondev.netlify.app/)
--   Frontend Mentor - [@indigorose](https://www.frontendmentor.io/profile/indigorose)
+- Website - [Portfolio Site](https://krobertsondev.netlify.app/)
+- Frontend Mentor - [@indigorose](https://www.frontendmentor.io/profile/indigorose)
